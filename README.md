@@ -191,7 +191,7 @@ Metrics are computed at K = 3. Below, ANNOTATION is compared with PTM4Tag+, the 
 
 ## 6. Qualitative Results
 
-![Qualitative example](assets/review2_qa.png)
+![Qualitative example](assets/graphs/review2_qa.png)
 
 ---
 
