@@ -12,8 +12,6 @@ Formally, let each post be a tuple *(title, description, code, comments, user)*,
 max_f  Σ_i  log P( T_i | title_i, des_i, code_i, cm_i, uid_i, ubdg_i, udes_i )
 ```
 
-The output is not restricted to a predefined tag vocabulary, so the model can suggest tags it has not seen as complete sequences.
-
 ### Input
 
 | Input group | Fields |
@@ -32,15 +30,10 @@ The output is not restricted to a predefined tag vocabulary, so the model can su
 | Avg. tags / post | 3 | 2.3 |
 | Avg. comments / post | 3.2 | 3.5 |
 | Max tags / post | 5 | 5 |
-| Time span | 2011 to 2019 (restricted to posts before 31 Dec 2016 for comparability) | Aug 2009 to Oct 2015 |
-
-Preprocessing: code extracted from text, posts with missing fields and HTML removed, and tags with frequency below 10 dropped. The split is 70/10/20 for train, validation and test.
 
 ---
 
 ## 2. Contributions
-
-Each contribution below is a design choice. For each one, we state what current work does, and why our choice is logically better.
 
 ### 2.1 Tag recommendation as sequence generation
 
