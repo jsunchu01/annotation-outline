@@ -153,15 +153,15 @@ Metrics are computed at K = 3. Below, ANNOTATION is compared with PTM4Tag+, the 
 
 | Method | Hit rate | Precision | Recall | F1-score | ROUGE-1 | ROUGE-L |
 |---|---|---|---|---|---|---|
-| ANNOTATION | 0.920 | 0.487 | 0.590 | 0.534 | 0.544 | 0.540 |
 | PTM4Tag+ | 0.916 | 0.537 | 0.442 | 0.485 | 0.436 | 0.424 |
+| ANNOTATION(Ours) | **0.920** | 0.487 |**0.590** | **0.534** | **0.544** | **0.540** |
 
 ### Stack Overflow
 
 | Method | Hit rate | Precision | Recall | F1-score | ROUGE-1 | ROUGE-L |
 |---|---|---|---|---|---|---|
-| ANNOTATION | 0.787 | 0.356 | 0.517 | 0.422 | 0.563 | 0.559 |
 | PTM4Tag+ | 0.726 | 0.445 | 0.313 | 0.368 | 0.387 | 0.363 |
+| ANNOTATION(Ours) | **0.787** | 0.356 | **0.517** | **0.422**| **0.563** | **0.559** |
 
 ### Comment embedding variants (Code Review)
 
