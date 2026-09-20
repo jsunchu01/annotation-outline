@@ -191,7 +191,7 @@ Metrics are computed at K = 3. Below, ANNOTATION is compared with PTM4Tag+, the 
 
 ## 6. Qualitative Results
 
-![Qualitative example](assets/fig4_qualitative_example.jpg)
+![Qualitative example](assets/review2_qa.png)
 
 ---
 
@@ -201,11 +201,11 @@ Baseline comparison on Code Review for K = 1 to 5.
 
 <table>
   <tr>
-    <td align="center"><b>F1-score</b><br><img src="assets/graphs/fig3d_f1.png" width="100%"></td>
-    <td align="center"><b>Hit rate</b><br><img src="assets/graphs/fig3a_hit_rate.png" width="100%"></td>
+    <td align="center"><b>F1-score</b><br><img src="assets/graphs/review2_f1_variants.png" width="100%"></td>
+    <td align="center"><b>Hit rate</b><br><img src="assets/graphs/review2_hitrate_variants.png" width="100%"></td>
   </tr>
   <tr>
-    <td align="center"><b>Recall</b><br><img src="assets/graphs/fig3c_recall.png" width="100%"></td>
-    <td align="center"><b>Precision</b><br><img src="assets/graphs/fig3b_precision.png" width="100%"></td>
+    <td align="center"><b>Recall</b><br><img src="assets/graphs/review2_recall_variants.png" width="100%"></td>
+    <td align="center"><b>Precision</b><br><img src="assets/graphs/review2_precision_variants.png" width="100%"></td>
   </tr>
 </table>
